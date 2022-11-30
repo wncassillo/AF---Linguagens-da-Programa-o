@@ -1,4 +1,4 @@
-package ingressos;
+package main;
 import view.SelectionView;
 
 /**
