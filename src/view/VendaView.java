@@ -63,7 +63,7 @@ public class VendaView extends javax.swing.JFrame {
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Solteiro", "Casal", " " }));
 
-        jLabel5.setText("Escolha o seu assento");
+        jLabel5.setText("Escolha o assento");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "A11", "A12", "A13", "A14", "A15", "B21", "B22", "B23", "B24", "B25", " " }));
 
@@ -232,7 +232,9 @@ public class VendaView extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        view.SelectionView selection = new SelectionView();
+        selection.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
