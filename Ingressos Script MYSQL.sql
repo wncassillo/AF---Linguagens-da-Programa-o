@@ -11,3 +11,5 @@ ingresso	varchar(10)		not null,
 assento		varchar(4)		not null,
 pagamento 	varchar(18)		not null 
 );
+
+select * from Vendas;
